@@ -2,6 +2,8 @@ a, b = float(input('Первое число: ')), float(input('Второе чи
 if a == b:
     print('Числа равны')
 elif a > b:
-    print('Первое число больше')
-elif b > a:
-    print('Второе число больше')
+    print(b)
+    print(a)
+else:
+    print(a)
+    print(b)
